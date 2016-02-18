@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<usync.data>
+  <content>
+    <info guid="6be8a032-2718-49c1-b398-cdce7ad5d8fa" name="Home" parent="-1" />
+    <info guid="73599996-bdd8-450b-b85d-1d842de8f1af" name="Getting Started" parent="1060" />
+    <info guid="feb03bba-6b52-4328-9bad-2953c51bbcd8" name="Go Further" parent="1060" />
+    <info guid="d27d44a0-5c4b-45dd-aa47-65fb495d8425" name="Installing Modules" parent="1060" />
+    <info guid="f9e2845e-ee3c-4220-81ed-d7a07d1449da" name="About" parent="1060" />
+    <info guid="ade4adfa-1562-4ec7-9bad-fe89f56dd166" name="News" parent="1060" />
+    <info guid="9b31fc4a-ead6-439f-8694-33db51e2c054" name="The 10 remarkable features of object" parent="1065" />
+    <info guid="7b3b11af-ac2b-40bd-8ce9-86c7ccf2f4a9" name="This is a wonderful news item" parent="1065" />
+    <info guid="f043a51d-da2b-4fc7-81e3-275455731ec1" name="You really need to read this!" parent="1065" />
+    <info guid="005fa5f8-e71c-482d-9819-97562046d614" name="Txt Starter Kit For Umbraco Released" parent="1065" />
+  </content>
+</usync.data>

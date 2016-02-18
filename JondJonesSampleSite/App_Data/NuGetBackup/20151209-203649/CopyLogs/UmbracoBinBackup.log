@@ -1,0 +1,56 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 09 December 2015 20:36:50
+   Source : C:\Code\UmbracoSampleSite\JondJonesSampleSite\JondJonesSampleSite\bin\
+     Dest : C:\Code\UmbracoSampleSite\JondJonesSampleSite\JondJonesSampleSite\App_Data\NuGetBackup\20151209-203649\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  26	C:\Code\UmbracoSampleSite\JondJonesSampleSite\JondJonesSampleSite\bin\
+	    New File  		  102912	Antlr3.Runtime.dll  0%  100%  
+	    New File  		   4.9 m	EntityFramework.dll  0%   10%   20%   30%   40%   50%   60%   70%   80%   91%  100%  
+	    New File  		  599760	EntityFramework.SqlServer.dll  0%   43%   87%  100%  
+	    New File  		  171168	Microsoft.AspNet.Identity.Core.dll  0%   76%  100%  
+	    New File  		   60064	Microsoft.AspNet.Identity.EntityFramework.dll  0%  100%  
+	    New File  		   54432	Microsoft.AspNet.Identity.Owin.dll  0%  100%  
+	    New File  		  101032	Microsoft.Owin.dll  0%  100%  
+	    New File  		  132776	Microsoft.Owin.Host.SystemWeb.dll  0%   98%  100%  
+	    New File  		   36520	Microsoft.Owin.Security.Cookies.dll  0%  100%  
+	    New File  		   52392	Microsoft.Owin.Security.dll  0%  100%  
+	    New File  		   35496	Microsoft.Owin.Security.Facebook.dll  0%  100%  
+	    New File  		   55464	Microsoft.Owin.Security.Google.dll  0%  100%  
+	    New File  		   36520	Microsoft.Owin.Security.MicrosoftAccount.dll  0%  100%  
+	    New File  		   77480	Microsoft.Owin.Security.OAuth.dll  0%  100%  
+	    New File  		   44200	Microsoft.Owin.Security.Twitter.dll  0%  100%  
+	    New File  		   45416	Microsoft.Web.Infrastructure.dll  0%  100%  
+	    New File  		  502272	Newtonsoft.Json.dll  0%   26%   52%   78%  100%  
+	    New File  		    4608	Owin.dll  0%  100%  
+	    New File  		  139984	System.Web.Helpers.dll  0%   93%  100%  
+	    New File  		  565448	System.Web.Mvc.dll  0%   46%   92%  100%  
+	    New File  		   70864	System.Web.Optimization.dll  0%  100%  
+	    New File  		  272080	System.Web.Razor.dll  0%   48%   96%  100%  
+	    New File  		   41680	System.Web.WebPages.Deployment.dll  0%  100%  
+	    New File  		  211656	System.Web.WebPages.dll  0%   61%  100%  
+	    New File  		   39624	System.Web.WebPages.Razor.dll  0%  100%  
+	    New File  		   1.2 m	WebGrease.dll  0%   20%   41%   61%   82%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :        26        26         0         0         0         0
+   Bytes :    9.45 m    9.45 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :            17304795 Bytes/sec.
+   Speed :             990.188 MegaBytes/min.
+   Ended : 09 December 2015 20:36:51
+

@@ -1,0 +1,56 @@
+﻿@model JonDJones.BusinessLayer.ViewModel.HeaderViewModel
+
+
+<ul id="oe_menu" class="oe_menu hovered">
+
+    @foreach (var page in Model.MenuItems)
+    {
+        <li class="">
+            <a href="@page.Url">@page.Name</a>
+
+                @if (page.GetChildren().Any())
+                {
+                    <div style="z-index: 1; display: none;">
+
+                        @foreach (var subMenu in page.GetChildren().Select(x => x as JonDJones.BusinessLayer.DocumentTypes.SubMenuItemDocumentType))
+                        {
+                            <ul>
+                                <li class="oe_heading">@subMenu.MenuTitle</li>
+
+                                @if (@subMenu.MenuOneLink != null)
+                                {
+                                    <li><a href="@subMenu.MenuOneLink">@subMenu.MenuOneTitle</a></li>
+                                }
+
+                                @if (@subMenu.MenuTwoLink != null)
+                                {
+                                    <li><a href="@subMenu.MenuTwoLink">@subMenu.MenuTwoTitle</a></li>
+                                }
+
+                                @if (@subMenu.MenuThreeLink != null)
+                                {
+                                    <li><a href="@subMenu.MenuThreeLink">@subMenu.MenuThreeTitle</a></li>
+                                }
+
+                                @if (@subMenu.MenuFourLink != null)
+                                {
+                                    <li><a href="@subMenu.MenuFourLink">@subMenu.MenuFourTitle</a></li>
+                                }
+
+                                @if (@subMenu.MenuFiveLink != null)
+                                {
+                                    <li><a href="@subMenu.MenuFiveLink">@subMenu.MenuFiveTitle</a></li>
+                                }
+                            </ul>
+                        }
+
+                    </div>
+                }
+
+        </li>
+    }
+
+</ul>
+
+
+

@@ -1,0 +1,28 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 14 December 2015 22:21:03
+   Source : C:\Code\UmbracoSampleSite\JondJonesSampleSite\JonDJones.BusinessLayer\bin\
+     Dest : C:\Code\UmbracoSampleSite\JondJonesSampleSite\JonDJones.BusinessLayer\App_Data\NuGetBackup\20151214-222102\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Code\UmbracoSampleSite\JondJonesSampleSite\JonDJones.BusinessLayer\bin\
+	  New Dir          0	C:\Code\UmbracoSampleSite\JondJonesSampleSite\JonDJones.BusinessLayer\bin\Debug\
+	  New Dir          0	C:\Code\UmbracoSampleSite\JondJonesSampleSite\JonDJones.BusinessLayer\bin\Release\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         2         1         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : 14 December 2015 22:21:03
+
